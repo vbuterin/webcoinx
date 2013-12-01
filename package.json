@@ -1,0 +1,23 @@
+{
+    "name": "webcoinx",
+    "version": "0.0.1",
+    "description": "Colored coin client plus helping server",
+    "dependencies": {
+        "underscore": "*",
+        "async": "*",
+        "crypto": "*",
+        "express": "3.1.0",
+        "jade": "*",
+        "bitcoin": "*",
+        "mongodb": ">= 0.9.6-7",
+        "bitcoinjs-lib": "https://github.com/vbuterin/bitcoinjs-lib/tarball/master"
+    },
+    "main": "server.js",
+    "author": "vbuterin",
+    "keywords": ["bitcoin", "crypto", "finance"],
+    "repository" : {                                                                      
+         "type": "git",                                                                    
+         "url": "https://github.com/vbuterin/webcoinx.git"                                     
+    },
+    "engines": { "node": "*" }
+}
